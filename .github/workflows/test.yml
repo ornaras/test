@@ -17,6 +17,6 @@ jobs:
         id: q
         with:
           release-type: simple
-          skip-github-pull-request: true
+          token: "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"
       - run: |
           echo "${{ toJSON(steps.q.outputs) }}"
