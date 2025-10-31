@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
-        id: q
         with:
           release-type: simple
           token: ${{ secrets.TOKEN }}
@@ -24,5 +23,3 @@ jobs:
               {"type":"fix","section":"🐞 Исправления","hidden":false},
               {"type":"docs","section":"📝 Документация","hidden":false}
             ]
-      - run: |
-          echo "${{ toJSON(steps.q.outputs) }}"
