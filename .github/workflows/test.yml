@@ -17,6 +17,6 @@ jobs:
         id: q
         with:
           release-type: simple
-          token: "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"
+          token: ${{ secrets.TOKEN }}
       - run: |
           echo "${{ toJSON(steps.q.outputs) }}"
