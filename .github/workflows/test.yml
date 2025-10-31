@@ -17,9 +17,9 @@ jobs:
         with:
           release-type: simple
           token: ${{ secrets.TOKEN }}
-          changelog-types: |
+          changelog-sections: |
             [
-              {"type":"feat","section":"✨ Новые возможности","hidden":false},
-              {"type":"fix","section":"🐞 Исправления","hidden":false},
-              {"type":"docs","section":"📝 Документация","hidden":false}
+              {"type":"feat","section":"✨ Новые возможности"},
+              {"type":"fix","section":"🐞 Исправления"},
+              {"type":"docs","section":"📝 Документация"}
             ]
