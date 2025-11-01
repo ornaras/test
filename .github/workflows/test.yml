@@ -16,6 +16,7 @@ jobs:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
+          skip-github-release: true
           token: ${{ secrets.TOKEN }}
       - run: |
-          echo "${{steps.release.outputs.version}}"
+          echo "${{ toJSON(steps.release.outputs) }}"
