@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.2.0](https://github.com/ornaras/test/compare/v2.1.0...v2.2.0) (2025-11-01)
+
+
+### ✨ Нововведения
+
+* test 102 ([46adba0](https://github.com/ornaras/test/commit/46adba0a493cf58e12c4e7f747d93193f14c96f3))
+
+
+### 🐞 Исправления
+
+* Add dependencies to release and request jobs ([039f4cc](https://github.com/ornaras/test/commit/039f4cc0058e8765ef9ec0329fb6f69db02f1e33))
+
 ## [2.1.0](https://github.com/ornaras/test/compare/v2.0.0...v2.1.0) (2025-11-01)
 
 
