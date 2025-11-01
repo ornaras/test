@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/ornaras/test/compare/v1.3.0...v1.3.1) (2025-11-01)
+
+
+### Bug Fixes
+
+* fix name step ([cfb4065](https://github.com/ornaras/test/commit/cfb4065af5668900d467baf0f8d940b2309dbe36))
+
 ## [1.3.0](https://github.com/ornaras/test/compare/v1.2.0...v1.3.0) (2025-11-01)
 
 
