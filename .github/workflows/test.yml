@@ -12,11 +12,21 @@ name: release-please
 jobs:
   release-please:
     runs-on: ubuntu-latest
+    outputs:
+      request: ${{ steps.release.outputs.prs_created }}
+      release: ${{ steps.release.outputs.releases_created }}
     steps:
       - uses: googleapis/release-please-action@v4
         id: release
         with:
-          skip-github-release: true
           token: ${{ secrets.TOKEN }}
-      - run: |
-          echo "${{ toJSON(steps.release.outputs) }}"
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ needs.release-please.outputs.release == true }}
+    steps:
+      - run: echo "isRelease"
+  request:
+    runs-on: ubuntu-latest
+    if: ${{ needs.release-please.outputs.request == true }}
+    steps:
+      - run: echo "isRequest"
