@@ -14,12 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: googleapis/release-please-action@v4
+        id: release
         with:
           release-type: simple
           token: ${{ secrets.TOKEN }}
-          changelog-sections: |
-            [
-              {"type":"feat","section":"✨ Новые возможности"},
-              {"type":"fix","section":"🐞 Исправления"},
-              {"type":"docs","section":"📝 Документация"}
-            ]
+      - run: |
+          echo "${{steps.q.outputs.version}}"
