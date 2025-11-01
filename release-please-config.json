@@ -3,11 +3,17 @@
     ".": {
       "release-type": "simple",
       "changelog-sections": [
-        { "type": "feat", "section": "✨ Новые возможности", "hidden": false },
-        { "type": "fix", "section": "🐞 Исправления", "hidden": false },
-        { "type": "docs", "section": "📝 Документация", "hidden": false },
-        { "type": "chore", "section": "⚙️ Прочее", "hidden": true }
-      ]
+        {"type": "feat", "section": "Нововведения", "hidden": false},
+        {"type": "fix", "section": "Исправления", "hidden": false},
+        {"type": "perf", "section": "Улучшение производительности", "hidden": false},
+        {"type": "revert", "section": "Отмена нововведения/исправления", "hidden": false},
+        {"type": "chore", "section": "Прочее", "hidden": true},
+        {"type": "test", "section": "Тесты", "hidden": true},
+        {"type": "ci", "section": "CI", "hidden": true},
+      ],
+      "pull-request-title-pattern": "Релиз: v${version}",
+      "pull-request-header": "🤖 Автоматический релиз, созданный Release Please",
+      "pull-request-footer": ""
     }
   }
 }
