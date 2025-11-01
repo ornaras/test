@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/ornaras/test/compare/v1.2.0...v1.3.0) (2025-11-01)
+
+
+### Features
+
+* check version update ([76a78ed](https://github.com/ornaras/test/commit/76a78ed4d8f858618abf2b02558df297c0d33429))
+
+
+### Bug Fixes
+
+* **actions:** show version ([a7165b9](https://github.com/ornaras/test/commit/a7165b9237b408908e452de6ab8478933009eb0e))
+
 ## [1.1.0](https://github.com/ornaras/test/compare/v1.0.0...v1.1.0) (2025-10-31)
 
 
