@@ -19,4 +19,4 @@ jobs:
           release-type: simple
           token: ${{ secrets.TOKEN }}
       - run: |
-          echo "${{steps.q.outputs.version}}"
+          echo "${{steps.release.outputs.version}}"
