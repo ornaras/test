@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.2.1](https://github.com/ornaras/test/compare/v2.2.0...v2.2.1) (2025-11-01)
+
+
+### 🐞 Исправления
+
+* bool to str ([5133339](https://github.com/ornaras/test/commit/51333396b9e70dc9f35d4cfaa82a2fa1becd563b))
+* Fix conditional syntax in test.yml ([327aace](https://github.com/ornaras/test/commit/327aacec0d4d08a22d1e8129a91189da19fd069b))
+* Remove empty line from test.txt ([0b97c9f](https://github.com/ornaras/test/commit/0b97c9faf706148fa16de29a21420710f1a8c905))
+
 ## [2.2.0](https://github.com/ornaras/test/compare/v2.1.0...v2.2.0) (2025-11-01)
 
 
