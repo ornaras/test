@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.0](https://github.com/ornaras/test/compare/v1.3.1...v2.0.0) (2025-11-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add 'hi' to test.txt
+
+### ✨ Нововведения
+
+* Add 'hi' to test.txt ([a113228](https://github.com/ornaras/test/commit/a1132289025654742ae5f18ac49372134038a307))
+* create conf-file ([29ecb52](https://github.com/ornaras/test/commit/29ecb520f737f005044945bf96c5a967e16950ed))
+
+
+### 🐞 Исправления
+
+* Create MANIFEST ([f134ed6](https://github.com/ornaras/test/commit/f134ed60ef1490a5889b26a0117a74ec628aeef1))
+* remove type ([555a730](https://github.com/ornaras/test/commit/555a730235aad678ca0c78a3b9ac82b5cc93b379))
+* set type simple ([45eb35a](https://github.com/ornaras/test/commit/45eb35a0076d31d399edbfb0738d0edb72ce6028))
+
 ## [1.3.1](https://github.com/ornaras/test/compare/v1.3.0...v1.3.1) (2025-11-01)
 
 
