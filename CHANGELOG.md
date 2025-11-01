@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/ornaras/test/compare/v2.0.0...v2.1.0) (2025-11-01)
+
+
+### ✨ Нововведения
+
+* test 101 ([d036afe](https://github.com/ornaras/test/commit/d036afe2da3ed710c45c239a79d4e46896734d81))
+
 ## [2.0.0](https://github.com/ornaras/test/compare/v1.3.1...v2.0.0) (2025-11-01)
 
 
